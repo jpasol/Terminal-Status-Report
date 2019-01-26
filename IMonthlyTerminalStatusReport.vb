@@ -1,4 +1,6 @@
-﻿Public Interface ITerminalStatusReport
+﻿Public Interface IMonthlyTerminalStatusReport
+    ReadOnly Property TerminalStatusReportMonthDate As String
+
     ReadOnly Property TotalGroundSlotTEU As Integer
     ReadOnly Property StaticCapacityTEU As Integer
     ReadOnly Property TotalYardCapacityTEU As Integer
@@ -28,4 +30,13 @@
     ReadOnly Property StorageEmptyTEU As Double
     ReadOnly Property TotalInYardTEU As Double
     ReadOnly Property YardUtilization As Double
+
+    ReadOnly Property Report As TSR
+
+    ReadOnly Property ClosingTerminalStatusReport As DailyTerminalStatusReport
+    ReadOnly Property DailyTerminalStatusReports As List(Of DailyTerminalStatusReport)
+
+    Sub FormatReport()
+    Sub RetrieveDailyTerminalStatusReportsoftheMonth()
+
 End Interface
