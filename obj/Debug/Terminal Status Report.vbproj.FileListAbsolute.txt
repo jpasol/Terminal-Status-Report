@@ -39,3 +39,4 @@ C:\Users\JPasol\Desktop\Repository\OP Dox Reports\Terminal-Status-Report\obj\Deb
 C:\Users\JPasol\Desktop\Repository\OP Dox Reports\Terminal-Status-Report\obj\Debug\Terminal Status Report.pdb
 C:\Users\JPasol\Desktop\Repository\OP Dox Reports\Terminal-Status-Report\bin\Debug\adodb.dll
 C:\Users\JPasol\Desktop\Repository\OP Dox Reports\Terminal-Status-Report\bin\Debug\ReportsInterface.dll.config
+C:\Users\JPasol\Desktop\Repository\OP Dox Reports\Terminal-Status-Report\bin\Debug\app.config

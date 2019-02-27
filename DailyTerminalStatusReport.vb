@@ -142,7 +142,7 @@ Public Class DailyTerminalStatusReport
         OPConnection.Open()
         With getDailyTerminalStatusDate()
             While Not .EOF
-                TerminalStatusReportsoftheDay.Add(New TSRClass(.Fields("created").Value, N4Connection, OPConnection))
+                TerminalStatusReportsoftheDay.Add(New TSRClass(.Fields("created").Value))
                 .MoveNext()
             End While
         End With
