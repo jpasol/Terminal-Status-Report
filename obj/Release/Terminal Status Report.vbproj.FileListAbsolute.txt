@@ -38,4 +38,3 @@ C:\Users\JPasol\Desktop\Repository\OP Dox Reports\Terminal-Status-Report\obj\Rel
 C:\Users\JPasol\Desktop\Repository\OP Dox Reports\Terminal-Status-Report\obj\Release\Terminal Status Report.dll
 C:\Users\JPasol\Desktop\Repository\OP Dox Reports\Terminal-Status-Report\obj\Release\Terminal Status Report.xml
 C:\Users\JPasol\Desktop\Repository\OP Dox Reports\Terminal-Status-Report\obj\Release\Terminal Status Report.pdb
-C:\Users\JPasol\Desktop\Repository\OP Dox Reports\Terminal-Status-Report\bin\Release\app.config
