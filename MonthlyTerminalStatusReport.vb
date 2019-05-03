@@ -1,16 +1,20 @@
 ﻿Imports Terminal_Status_Report
 Imports ADODB
 Imports AutomatedTerminalStatusReport
+Imports Reports
 
 Public Class MonthlyTerminalStatusReport
     Implements IMonthlyTerminalStatusReport
 
-    Public Sub New(TSRMonthDate As String, ByRef OPConnection As ADODB.Connection)
+    Public Sub New(TSRMonthDate As String)
+
+        Dim connections As New connections
+
         Me.TerminalStatusReportMonthDate = TSRMonthDate
         TerminalStatusReportData = New TerminalStatusReportData
         Report = New TSR
-        Me.N4Connection = N4Connection
-        Me.OPConnection = OPConnection
+        Me.N4Connection = connections.N4Connection
+        Me.OPConnection = connections.OPConnection
         RetrieveDailyTerminalStatusReportsoftheMonth()
 
         With ClosingTerminalStatusReport
@@ -39,6 +43,7 @@ Public Class MonthlyTerminalStatusReport
             Me.YTDImportDwellTime = .Average(Function(mtsr) mtsr.YTDImportDwellTime)
             Me.OverstayingManilaCargo = .Max(Function(mtsr) mtsr.OverstayingManilaCargo)
             Me.TotalOverstayingCargo = .Max(Function(mtsr) mtsr.TotalOverstayingCargo)
+            Me.CraneDensity = .Average(Function(mtsr) mtsr.CraneDensity)
         End With
 
     End Sub
@@ -50,8 +55,8 @@ Public Class MonthlyTerminalStatusReport
                 Try
                     Dim reportDate As New Date(.Year, .Month, day)
                     Dim formattedDate As String = Format(reportDate, "MM/dd/yyyy")
-                    DailyTerminalStatusReports.Add(New DailyTerminalStatusReport(formattedDate, OPConnection))
-                Catch
+                    DailyTerminalStatusReports.Add(New DailyTerminalStatusReport(formattedDate))
+                Catch ex As Exception
                 End Try
             Next
         End With
@@ -112,6 +117,7 @@ Public Class MonthlyTerminalStatusReport
     Public ReadOnly Property MTDAverageNetCraneProductivity As Double Implements IMonthlyTerminalStatusReport.MTDAverageNetCraneProductivity
     Public ReadOnly Property MTDAverageNetBerthProductivity As Double Implements IMonthlyTerminalStatusReport.MTDAverageNetBerthProductivity
     Public ReadOnly Property MTDAverageNetVesselProductivity As Double Implements IMonthlyTerminalStatusReport.MTDAverageNetVesselProductivity
+    Public ReadOnly Property CraneDensity As Double Implements IMonthlyTerminalStatusReport.CraneDensity
     Public ReadOnly Property AverageImportDwellTime As Double Implements IMonthlyTerminalStatusReport.AverageImportDwellTime
     Public ReadOnly Property MTDImportDwellTime As Double Implements IMonthlyTerminalStatusReport.MTDImportDwellTime
     Public ReadOnly Property YTDImportDwellTime As Double Implements IMonthlyTerminalStatusReport.YTDImportDwellTime
@@ -137,7 +143,7 @@ Public Class MonthlyTerminalStatusReport
 
     Public ReadOnly Property ClosingTerminalStatusReport As DailyTerminalStatusReport Implements IMonthlyTerminalStatusReport.ClosingTerminalStatusReport
         Get
-            Return DailyTerminalStatusReports.OrderByDescending(Function(tsr) CDate(tsr.DailyTerminalStatusReportDate)).First
+            Return DailyTerminalStatusReports.OrderByDescending(Function(tsr) CDate(tsr.DailyTerminalStatusReportDate)).FirstOrDefault()
         End Get
     End Property
 

@@ -1,14 +1,16 @@
 ﻿Imports AutomatedTerminalStatusReport
 Imports CrystalDecisions.CrystalReports.Engine
 Imports Terminal_Status_Report
+Imports Reports
 
 Public Class DailyTerminalStatusReport
     Implements IDailyTerminalStatusReport
 
-    Public Sub New(DailyTerminalStatusDate As String, ByRef OPConnection As ADODB.Connection)
+    Public Sub New(DailyTerminalStatusDate As String)
+        Dim connections As New Connections
 
         Me.dailyTSRDate = DailyTerminalStatusDate
-        Me.OPConnection = OPConnection
+        Me.OPConnection = connections.OPConnection
         Me.TerminalStatusReportsoftheDay = New List(Of TSRClass)
         Me.Report = New TSR
         RetrieveTerminalStatusReports()
@@ -24,6 +26,7 @@ Public Class DailyTerminalStatusReport
             MTDAverageNetBerthProductivity = .MTDAverageNetBerthProductivity
             MTDAverageNetVesselProductivity = .MTDAverageNetVesselProductivity
             AverageImportDwellTime = .AverageImportDwellTime
+            CraneDensity = .CraneDensity
             MTDImportDwellTime = .MTDImportDwellTime
             YTDImportDwellTime = .YTDImportDwellTime
             MTDExportDwellTime = .MTDExportDwellTime
@@ -109,6 +112,7 @@ Public Class DailyTerminalStatusReport
     Public ReadOnly Property MTDAverageNetCraneProductivity As Double Implements IDailyTerminalStatusReport.MTDAverageNetCraneProductivity
     Public ReadOnly Property MTDAverageNetBerthProductivity As Double Implements IDailyTerminalStatusReport.MTDAverageNetBerthProductivity
     Public ReadOnly Property MTDAverageNetVesselProductivity As Double Implements IDailyTerminalStatusReport.MTDAverageNetVesselProductivity
+    Public ReadOnly Property CraneDensity As Double Implements IDailyTerminalStatusReport.CraneDensity
     Public ReadOnly Property AverageImportDwellTime As Double Implements IDailyTerminalStatusReport.AverageImportDwellTime
     Public ReadOnly Property MTDImportDwellTime As Double Implements IDailyTerminalStatusReport.MTDImportDwellTime
     Public ReadOnly Property YTDImportDwellTime As Double Implements IDailyTerminalStatusReport.YTDImportDwellTime
@@ -132,7 +136,7 @@ Public Class DailyTerminalStatusReport
     Public ReadOnly Property TerminalStatusReportsoftheDay As List(Of TSRClass) Implements IDailyTerminalStatusReport.TerminalStatusReportsoftheDay
     Public ReadOnly Property ClosingTerminalStatusReport As TSRClass Implements IDailyTerminalStatusReport.ClosingTerminalStatusReport
         Get
-            Return TerminalStatusReportsoftheDay.OrderByDescending(Function(tsr) tsr.TerminalStatusDate).First
+            Return TerminalStatusReportsoftheDay.OrderByDescending(Function(tsr) tsr.TerminalStatusDate).FirstOrDefault
         End Get
     End Property
 

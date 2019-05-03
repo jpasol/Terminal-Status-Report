@@ -1,3 +1,8 @@
+C:\Users\JPasol\Desktop\Repository\OP Dox Reports\Terminal-Status-Report\obj\Release\Terminal_Status_Report.Resources.resources
+C:\Users\JPasol\Desktop\Repository\OP Dox Reports\Terminal-Status-Report\obj\Release\Terminal Status Report.vbproj.GenerateResource.cache
+C:\Users\JPasol\Desktop\Repository\OP Dox Reports\Terminal-Status-Report\obj\Release\Terminal Status Report.vbproj.CoreCompileInputs.cache
+C:\Users\JPasol\Desktop\Repository\OP Dox Reports\Terminal-Status-Report\obj\Release\Terminal Status Report.vbprojAssemblyReference.cache
+C:\Users\JPasol\Desktop\Repository\OP Dox Reports\Terminal-Status-Report\bin\Release\app.config
 C:\Users\JPasol\Desktop\Repository\OP Dox Reports\Terminal-Status-Report\bin\Release\Terminal Status Report.dll
 C:\Users\JPasol\Desktop\Repository\OP Dox Reports\Terminal-Status-Report\bin\Release\Terminal Status Report.pdb
 C:\Users\JPasol\Desktop\Repository\OP Dox Reports\Terminal-Status-Report\bin\Release\Terminal Status Report.xml
@@ -30,10 +35,6 @@ C:\Users\JPasol\Desktop\Repository\OP Dox Reports\Terminal-Status-Report\bin\Rel
 C:\Users\JPasol\Desktop\Repository\OP Dox Reports\Terminal-Status-Report\bin\Release\Crane Logs Report Creator.dll.config
 C:\Users\JPasol\Desktop\Repository\OP Dox Reports\Terminal-Status-Report\bin\Release\ReportsInterface.pdb
 C:\Users\JPasol\Desktop\Repository\OP Dox Reports\Terminal-Status-Report\bin\Release\ReportsInterface.dll.config
-C:\Users\JPasol\Desktop\Repository\OP Dox Reports\Terminal-Status-Report\obj\Release\Terminal Status Report.vbprojAssemblyReference.cache
-C:\Users\JPasol\Desktop\Repository\OP Dox Reports\Terminal-Status-Report\obj\Release\Terminal_Status_Report.Resources.resources
-C:\Users\JPasol\Desktop\Repository\OP Dox Reports\Terminal-Status-Report\obj\Release\Terminal Status Report.vbproj.GenerateResource.cache
-C:\Users\JPasol\Desktop\Repository\OP Dox Reports\Terminal-Status-Report\obj\Release\Terminal Status Report.vbproj.CoreCompileInputs.cache
 C:\Users\JPasol\Desktop\Repository\OP Dox Reports\Terminal-Status-Report\obj\Release\Terminal Status Report.vbproj.CopyComplete
 C:\Users\JPasol\Desktop\Repository\OP Dox Reports\Terminal-Status-Report\obj\Release\Terminal Status Report.dll
 C:\Users\JPasol\Desktop\Repository\OP Dox Reports\Terminal-Status-Report\obj\Release\Terminal Status Report.xml

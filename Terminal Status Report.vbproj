@@ -154,6 +154,10 @@
     <Service Include="{C0C07587-41A7-46C8-8FBD-3F9C8EBE2DDC}" />
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\ITS – Operations Automation of Reports\Project1\Reports Interface.vbproj">
+      <Project>{19315380-b270-43b7-83b7-ac163b6f79cd}</Project>
+      <Name>Reports Interface</Name>
+    </ProjectReference>
     <ProjectReference Include="..\ITS – Operations Automation of Reports\WindowsApp1\Automated Terminal Status.vbproj">
       <Project>{ec826867-4ba3-4ba8-a8ee-9ba6fc81e984}</Project>
       <Name>Automated Terminal Status</Name>

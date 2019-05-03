@@ -10,6 +10,7 @@
     ReadOnly Property MTDAverageNetCraneProductivity As Double
     ReadOnly Property MTDAverageNetBerthProductivity As Double
     ReadOnly Property MTDAverageNetVesselProductivity As Double
+    ReadOnly Property CraneDensity As Double
     ReadOnly Property AverageImportDwellTime As Double
     ReadOnly Property MTDImportDwellTime As Double
     ReadOnly Property YTDImportDwellTime As Double
@@ -34,6 +35,7 @@
 
     ReadOnly Property ClosingTerminalStatusReport As AutomatedTerminalStatusReport.TSRClass
     ReadOnly Property TerminalStatusReportsoftheDay As List(Of AutomatedTerminalStatusReport.TSRClass)
+
     Sub FormatReport()
     Sub RetrieveTerminalStatusReportsoftheDay()
 

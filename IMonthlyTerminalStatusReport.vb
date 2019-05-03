@@ -10,6 +10,7 @@
     ReadOnly Property MTDAverageNetCraneProductivity As Double
     ReadOnly Property MTDAverageNetBerthProductivity As Double
     ReadOnly Property MTDAverageNetVesselProductivity As Double
+    ReadOnly Property CraneDensity As Double
     ReadOnly Property AverageImportDwellTime As Double
     ReadOnly Property MTDImportDwellTime As Double
     ReadOnly Property YTDImportDwellTime As Double
@@ -35,7 +36,6 @@
 
     ReadOnly Property ClosingTerminalStatusReport As DailyTerminalStatusReport
     ReadOnly Property DailyTerminalStatusReports As List(Of DailyTerminalStatusReport)
-
     Sub FormatReport()
     Sub RetrieveDailyTerminalStatusReportsoftheMonth()
 

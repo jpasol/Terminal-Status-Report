@@ -28,4 +28,5 @@
     ReadOnly Property StorageEmptyTEU As Double
     ReadOnly Property TotalInYardTEU As Double
     ReadOnly Property YardUtilization As Double
+    ReadOnly Property CraneDensity As Double
 End Interface

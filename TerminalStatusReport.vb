@@ -12,6 +12,7 @@ Public Class TerminalStatusReport
     Public Property MTDAverageNetCraneProductivity As Double Implements ITerminalStatusReport.MTDAverageNetCraneProductivity
     Public Property MTDAverageNetBerthProductivity As Double Implements ITerminalStatusReport.MTDAverageNetBerthProductivity
     Public Property MTDAverageNetVesselProductivity As Double Implements ITerminalStatusReport.MTDAverageNetVesselProductivity
+    Public Property CraneDensity As Double Implements ITerminalStatusReport.CraneDensity
     Public Property AverageImportDwellTime As Double Implements ITerminalStatusReport.AverageImportDwellTime
     Public Property MTDImportDwellTime As Double Implements ITerminalStatusReport.MTDImportDwellTime
     Public Property YTDImportDwellTime As Double Implements ITerminalStatusReport.YTDImportDwellTime

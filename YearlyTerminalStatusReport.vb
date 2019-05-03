@@ -1,15 +1,18 @@
 ﻿Imports ADODB
 Imports Terminal_Status_Report
+Imports Reports
 
 Public Class YearlyTerminalStatusReport
     Inherits TerminalStatusReport
     Implements IYearlyTerminalStatusReport
 
-    Public Sub New(Year As String, ByRef OPConnection As ADODB.Connection)
+    Public Sub New(Year As String)
+        Dim connections As New Connections
+
         Me.Year = Year
         Me.Report = New TSR
-        Me.N4Connection = N4Connection
-        Me.OPConnection = OPConnection
+        Me.N4Connection = connections.N4Connection
+        Me.OPConnection = connections.OPConnection
         RetrieveTerminalStatusReports()
         Calculate()
 
@@ -37,6 +40,7 @@ Public Class YearlyTerminalStatusReport
             Me.MTDAverageNetCraneProductivity = .Average(Function(mtsr) mtsr.MTDAverageNetCraneProductivity)
             Me.MTDAverageNetVesselProductivity = .Average(Function(mtsr) mtsr.MTDAverageNetVesselProductivity)
             Me.MTDAverageNetBerthProductivity = .Average(Function(mtsr) mtsr.MTDAverageNetBerthProductivity)
+            Me.CraneDensity = .Average(Function(mtsr) mtsr.CraneDensity)
             Me.AverageImportDwellTime = .Average(Function(mtsr) mtsr.AverageImportDwellTime)
             Me.MTDImportDwellTime = .Average(Function(mtsr) mtsr.MTDImportDwellTime)
             Me.YTDImportDwellTime = .Average(Function(mtsr) mtsr.YTDImportDwellTime)
@@ -62,7 +66,7 @@ Public Class YearlyTerminalStatusReport
     Public Sub RetrieveTerminalStatusReports() Implements IYearlyTerminalStatusReport.RetrieveTerminalStatusReports
         For Month As Integer = 1 To 12
             Try
-                TerminalStatusReports.Add(New MonthlyTerminalStatusReport($"{Month}/{Year}", OPConnection))
+                TerminalStatusReports.Add(New MonthlyTerminalStatusReport($"{Month}/{Year}"))
             Catch
             End Try
         Next
