@@ -1,16 +1,15 @@
-C:\Users\JPasol\Desktop\Repository\OP Dox Reports\Terminal-Status-Report\obj\Debug\Terminal Status Report.vbprojAssemblyReference.cache
-C:\Users\JPasol\Desktop\Repository\OP Dox Reports\Terminal-Status-Report\obj\Debug\Terminal_Status_Report.Resources.resources
-C:\Users\JPasol\Desktop\Repository\OP Dox Reports\Terminal-Status-Report\obj\Debug\Terminal Status Report.vbproj.GenerateResource.cache
-C:\Users\JPasol\Desktop\Repository\OP Dox Reports\Terminal-Status-Report\obj\Debug\Terminal Status Report.vbproj.CoreCompileInputs.cache
+C:\Users\JPasol\Desktop\Repository\OP Dox Reports\Terminal-Status-Report\bin\Debug\app.config
 C:\Users\JPasol\Desktop\Repository\OP Dox Reports\Terminal-Status-Report\bin\Debug\Terminal Status Report.dll
 C:\Users\JPasol\Desktop\Repository\OP Dox Reports\Terminal-Status-Report\bin\Debug\Terminal Status Report.pdb
 C:\Users\JPasol\Desktop\Repository\OP Dox Reports\Terminal-Status-Report\bin\Debug\Terminal Status Report.xml
+C:\Users\JPasol\Desktop\Repository\OP Dox Reports\Terminal-Status-Report\bin\Debug\adodb.dll
 C:\Users\JPasol\Desktop\Repository\OP Dox Reports\Terminal-Status-Report\bin\Debug\AutomatedTerminalStatusReport.exe
 C:\Users\JPasol\Desktop\Repository\OP Dox Reports\Terminal-Status-Report\bin\Debug\CrystalDecisions.CrystalReports.Engine.dll
 C:\Users\JPasol\Desktop\Repository\OP Dox Reports\Terminal-Status-Report\bin\Debug\CrystalDecisions.ReportSource.dll
 C:\Users\JPasol\Desktop\Repository\OP Dox Reports\Terminal-Status-Report\bin\Debug\CrystalDecisions.Shared.dll
-C:\Users\JPasol\Desktop\Repository\OP Dox Reports\Terminal-Status-Report\bin\Debug\Crane Logs Report Creator.dll
 C:\Users\JPasol\Desktop\Repository\OP Dox Reports\Terminal-Status-Report\bin\Debug\ReportsInterface.dll
+C:\Users\JPasol\Desktop\Repository\OP Dox Reports\Terminal-Status-Report\bin\Debug\CrystalDecisions.Windows.Forms.dll
+C:\Users\JPasol\Desktop\Repository\OP Dox Reports\Terminal-Status-Report\bin\Debug\Crane Logs Report Creator.dll
 C:\Users\JPasol\Desktop\Repository\OP Dox Reports\Terminal-Status-Report\bin\Debug\CrystalDecisions.ReportAppServer.DataDefModel.dll
 C:\Users\JPasol\Desktop\Repository\OP Dox Reports\Terminal-Status-Report\bin\Debug\CrystalDecisions.ReportAppServer.ClientDoc.dll
 C:\Users\JPasol\Desktop\Repository\OP Dox Reports\Terminal-Status-Report\bin\Debug\CrystalDecisions.ReportAppServer.ReportDefModel.dll
@@ -22,21 +21,23 @@ C:\Users\JPasol\Desktop\Repository\OP Dox Reports\Terminal-Status-Report\bin\Deb
 C:\Users\JPasol\Desktop\Repository\OP Dox Reports\Terminal-Status-Report\bin\Debug\CrystalDecisions.ReportAppServer.CubeDefModel.dll
 C:\Users\JPasol\Desktop\Repository\OP Dox Reports\Terminal-Status-Report\bin\Debug\CrystalDecisions.ReportAppServer.CommonObjectModel.dll
 C:\Users\JPasol\Desktop\Repository\OP Dox Reports\Terminal-Status-Report\bin\Debug\CrystalDecisions.ReportAppServer.ObjectFactory.dll
-C:\Users\JPasol\Desktop\Repository\OP Dox Reports\Terminal-Status-Report\bin\Debug\CrystalDecisions.Windows.Forms.dll
+C:\Users\JPasol\Desktop\Repository\OP Dox Reports\Terminal-Status-Report\bin\Debug\FlashControlV71.dll
 C:\Users\JPasol\Desktop\Repository\OP Dox Reports\Terminal-Status-Report\bin\Debug\CrystalDecisions.ReportAppServer.CommonControls.dll
 C:\Users\JPasol\Desktop\Repository\OP Dox Reports\Terminal-Status-Report\bin\Debug\stdole.dll
-C:\Users\JPasol\Desktop\Repository\OP Dox Reports\Terminal-Status-Report\bin\Debug\FlashControlV71.dll
 C:\Users\JPasol\Desktop\Repository\OP Dox Reports\Terminal-Status-Report\bin\Debug\ShockwaveFlashObjects.dll
+C:\Users\JPasol\Desktop\Repository\OP Dox Reports\Terminal-Status-Report\bin\Debug\ReportsInterface.pdb
+C:\Users\JPasol\Desktop\Repository\OP Dox Reports\Terminal-Status-Report\bin\Debug\ReportsInterface.dll.config
 C:\Users\JPasol\Desktop\Repository\OP Dox Reports\Terminal-Status-Report\bin\Debug\AutomatedTerminalStatusReport.pdb
 C:\Users\JPasol\Desktop\Repository\OP Dox Reports\Terminal-Status-Report\bin\Debug\AutomatedTerminalStatusReport.xml
 C:\Users\JPasol\Desktop\Repository\OP Dox Reports\Terminal-Status-Report\bin\Debug\AutomatedTerminalStatusReport.exe.config
 C:\Users\JPasol\Desktop\Repository\OP Dox Reports\Terminal-Status-Report\bin\Debug\Crane Logs Report Creator.pdb
+C:\Users\JPasol\Desktop\Repository\OP Dox Reports\Terminal-Status-Report\bin\Debug\Crane Logs Report Creator.xml
 C:\Users\JPasol\Desktop\Repository\OP Dox Reports\Terminal-Status-Report\bin\Debug\Crane Logs Report Creator.dll.config
-C:\Users\JPasol\Desktop\Repository\OP Dox Reports\Terminal-Status-Report\bin\Debug\ReportsInterface.pdb
+C:\Users\JPasol\Desktop\Repository\OP Dox Reports\Terminal-Status-Report\obj\Debug\Terminal Status Report.vbprojAssemblyReference.cache
+C:\Users\JPasol\Desktop\Repository\OP Dox Reports\Terminal-Status-Report\obj\Debug\Terminal_Status_Report.Resources.resources
+C:\Users\JPasol\Desktop\Repository\OP Dox Reports\Terminal-Status-Report\obj\Debug\Terminal Status Report.vbproj.GenerateResource.cache
+C:\Users\JPasol\Desktop\Repository\OP Dox Reports\Terminal-Status-Report\obj\Debug\Terminal Status Report.vbproj.CoreCompileInputs.cache
 C:\Users\JPasol\Desktop\Repository\OP Dox Reports\Terminal-Status-Report\obj\Debug\Terminal Status Report.vbproj.CopyComplete
 C:\Users\JPasol\Desktop\Repository\OP Dox Reports\Terminal-Status-Report\obj\Debug\Terminal Status Report.dll
 C:\Users\JPasol\Desktop\Repository\OP Dox Reports\Terminal-Status-Report\obj\Debug\Terminal Status Report.xml
 C:\Users\JPasol\Desktop\Repository\OP Dox Reports\Terminal-Status-Report\obj\Debug\Terminal Status Report.pdb
-C:\Users\JPasol\Desktop\Repository\OP Dox Reports\Terminal-Status-Report\bin\Debug\adodb.dll
-C:\Users\JPasol\Desktop\Repository\OP Dox Reports\Terminal-Status-Report\bin\Debug\ReportsInterface.dll.config
-C:\Users\JPasol\Desktop\Repository\OP Dox Reports\Terminal-Status-Report\bin\Debug\app.config
